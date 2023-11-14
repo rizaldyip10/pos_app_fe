@@ -39,7 +39,7 @@ export const CategoryList = () => {
     }
 
     return (
-        <Flex w="full" gap={5} mt="3rem">
+        <Flex w="full" gap={5} mt="2.5rem">
             {data.map((item) => (
                 <Flex
                     key={item.id}

@@ -2,6 +2,7 @@ import { Button, Flex, Heading, Input, InputGroup, InputLeftElement, Menu, MenuB
 import { AiOutlineSearch } from "react-icons/ai"
 import { BiFilterAlt } from "react-icons/bi"
 import { CategoryList } from "./CategoryList"
+import { MenuList } from "./MenuList"
 
 
 export const CashierMenu = () => {
@@ -27,6 +28,7 @@ export const CashierMenu = () => {
                 </Flex>
             </Flex>
             <CategoryList />
+            <MenuList />
         </Flex>
     )
 }

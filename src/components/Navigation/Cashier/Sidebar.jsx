@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom"
 
 export const SidebarCashier = () => {
     return (
-        <Flex direction="column" h="100vh" w="6rem" borderRight="1px" borderRightColor="#abbcd5"
+        <Flex direction="column" h="100vh" w="6rem" 
         position="fixed" py="2rem" justify="space-between" bg="white"
         >
             <Flex direction="column" gap={8}>
