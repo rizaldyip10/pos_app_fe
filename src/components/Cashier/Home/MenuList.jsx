@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react"
+import { Flex, Image, Text } from "@chakra-ui/react"
 
 
 export const MenuList = () => {
@@ -53,11 +53,28 @@ export const MenuList = () => {
                     key={item.id}
                     bg="white"
                     h="20rem"
-                    w="13rem"
+                    w="14rem"
                     mt="1.5rem"
                     rounded="lg"
+                    p=".75rem"
+                    direction="column"
+                    gap={3}
+                    justify="flex-start"
                 >
-
+                    <Flex h="10rem">
+                        <Image src={item.imgURL} objectFit="cover" />
+                    </Flex>
+                    <Flex justify="flex-start">
+                        <Text fontWeight="bold" align="start" fontSize="1.1rem">{item.name}</Text>
+                    </Flex>
+                    <Flex w="full">
+                        <Text fontSize=".8rem" color="gray" align="start">{item.description}</Text>
+                    </Flex>
+                    <Flex w="full" justify="space-between">
+                        <Text fontSize="1.1rem" fontWeight="bold" color="orange">
+                            Rp {item.price}
+                        </Text>
+                    </Flex>
                 </Flex>
             ))}
         </Flex>

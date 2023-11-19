@@ -7,7 +7,7 @@ import { MenuList } from "./MenuList"
 
 export const CashierMenu = () => {
     return (
-        <Flex direction="column" ml="2rem" mt="1rem" w="69%" align="center">
+        <Flex direction="column" ml="2rem" mt="1rem" w="67%" align="center">
             <Flex w="full" justify="space-between" align="center" color="black">
                 <Flex direction="column" w="50%" align="flex-start">
                     <Heading fontSize="1.5rem">Welcome, Rizaldy</Heading>
